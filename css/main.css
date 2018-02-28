@@ -7,33 +7,38 @@ body {
   background-color: #123;
   color: #f60;
 }
-.container {
-  display: flex;
-  background: white;
-}
-
 .top{
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
 }
-
+.container {
+  display: flex;
+  background: white;
+  flex-wrap: wrap;
+}
 .flex {
   height: 100px;
-  min-width: 100px;
+  /* flex-basis: 600px; */
+  /* flex: flexgrow flexshrink felxbasis ; */
+  flex: 1 1 200px;
 }
 .one {
   background: red;
-  flex-grow: 1;
+  /* flex-grow: 1; */
+  /* flex-basis: 300px; */
+
 
 }
 .two {
   background: blue;
-  flex-grow: 1;
+  /* flex-grow: 1; */
+  /* flex-basis: 300px; */
 
 }
 .three {
   background: green;
-  flex-grow: 1;
+  /* flex-grow: 1; */
+  /* flex-basis: 300px; */
 
 }
