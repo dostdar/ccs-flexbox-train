@@ -1,39 +1,14 @@
-* {
-  margin: 0px;
+*{
+    font-family: verdana;
+    margin: 0;
 }
 
-body {
-
-  background-color: #123;
-  color: #f60;
-}
-.container {
-  display: flex;
-  background: white;
+body{
+    background: #eee;
 }
 
-.top{
+.wrapper{
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
-}
-
-.flex {
-  height: 100px;
-  min-width: 100px;
-}
-.one {
-  background: red;
-  flex-grow: 2;
-
-}
-.two {
-  background: blue;
-  flex-grow: 5;
-
-}
-.three {
-  background: green;
-  flex-grow: 2;
-
 }
