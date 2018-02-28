@@ -2,6 +2,15 @@
   margin: 0px;
 }
 
+body {
+
+  background-color: #123;
+  color: #f60;
+}
+.container {
+  display: flex;
+  background: white;
+}
 
 .top{
     width: 100%;
@@ -9,25 +18,9 @@
     margin: 0 auto;
 }
 
-body {
-
-  background-color: #123;
-  color: #f60;
-}
-.container {
-  /* display: flex; */
-  background: white;
-}
-
-.container::after {
-  content: "";
-  display: block;
-  clear: both;
-}
 .flex {
   height: 100px;
   min-width: 100px;
-  float: left;
 }
 .one {
   background: red;
