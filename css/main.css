@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+}
+
+
+.top{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+body {
+  background-color: #123;
+  color: #f00;
+}
+.container {
+  /* display: flex; */
+  background: white;
+}
+
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.flex {
+  height: 100px;
+  min-width: 100px;
+  float: left;
+}
+.one {
+  background: red;
+}
+.two {
+  background: blue;
+}
+.three {
+  background: green;
+}
