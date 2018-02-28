@@ -10,6 +10,8 @@ body {
 .container {
   display: flex;
   background: white;
+  flex-wrap: wrap-reverse;
+  /* flex-wrap: nowrap; is default behaver */ 
 }
 
 .top{
@@ -20,20 +22,18 @@ body {
 
 .flex {
   height: 100px;
-  min-width: 100px;
+  min-width: 200px;
+  flex-grow: 1;
 }
 .one {
   background: red;
-  flex-grow: 2;
 
 }
 .two {
   background: blue;
-  flex-grow: 5;
 
 }
 .three {
   background: green;
-  flex-grow: 2;
 
 }
